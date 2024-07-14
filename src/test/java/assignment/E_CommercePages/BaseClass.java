@@ -38,7 +38,7 @@ public class BaseClass {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
-
+    
     @BeforeClass
     public void setupExtent() {
         extent = ExtentReportUtils.getInstance();
