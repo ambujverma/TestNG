@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-13T23:28:19 IST" name="Default suite" finished-at="2024-07-13T23:28:39 IST" duration-ms="20001">
+    <groups>
+    </groups>
+    <test started-at="2024-07-13T23:28:19 IST" name="Default test" finished-at="2024-07-13T23:28:39 IST" duration-ms="20001">
+      <class name="assignment.TestCases.AmazonTest">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:assignment.TestCases.AmazonTest@33065d67]" started-at="2024-07-13T23:28:19 IST" name="setupExtent" finished-at="2024-07-13T23:28:19 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:assignment.TestCases.AmazonTest@33065d67]" started-at="2024-07-13T23:28:19 IST" name="setupBrowser" finished-at="2024-07-13T23:28:21 IST" duration-ms="1465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:assignment.TestCases.AmazonTest@33065d67]" started-at="2024-07-13T23:28:21 IST" name="setup" finished-at="2024-07-13T23:28:21 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AmazonTask()[pri:0, instance:assignment.TestCases.AmazonTest@33065d67]" started-at="2024-07-13T23:28:21 IST" name="AmazonTask" finished-at="2024-07-13T23:28:36 IST" duration-ms="14994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonTask -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:assignment.TestCases.AmazonTest@33065d67]" started-at="2024-07-13T23:28:36 IST" name="captureScreenshot" finished-at="2024-07-13T23:28:37 IST" duration-ms="1249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AmazonTask status=SUCCESS method=AmazonTest.AmazonTask()[pri:0, instance:assignment.TestCases.AmazonTest@33065d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:assignment.TestCases.AmazonTest@33065d67]" started-at="2024-07-13T23:28:37 IST" name="teardown" finished-at="2024-07-13T23:28:39 IST" duration-ms="1625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:assignment.TestCases.AmazonTest@33065d67]" started-at="2024-07-13T23:28:39 IST" name="tearDownExtent" finished-at="2024-07-13T23:28:39 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtent -->
+      </class> <!-- assignment.TestCases.AmazonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

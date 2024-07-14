@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Assignment]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="assignment.TestCases.AmazonTest">
+        <methods>
+          <include name="captureScreenshot"/>
+          <include name="tearDownExtent"/>
+          <include name="setupExtent"/>
+          <include name="teardown"/>
+          <include name="AmazonTask"/>
+          <include name="setupBrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- assignment.TestCases.AmazonTest -->
+      <class name="assignment.TestCases.priceCompareTest">
+        <methods>
+          <include name="captureScreenshot"/>
+          <include name="tearDownExtent"/>
+          <include name="setup"/>
+          <include name="setupExtent"/>
+          <include name="teardown"/>
+          <include name="comparePrices"/>
+          <include name="setupBrowser"/>
+        </methods>
+      </class> <!-- assignment.TestCases.priceCompareTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Assignment] -->
