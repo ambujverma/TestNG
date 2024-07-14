@@ -34,7 +34,7 @@ public class BaseClass {
 
     @BeforeMethod
 	public void setupBrowser() {
-		System.setProperty("webdriver.chrome.driver", "D:\\User\\Downloads\\chromedriver126.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ambuj\\eclipse-workspace\\ambujproject\\Utils\\chromedriver126.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
