@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignment.TestCases.AmazonTest">
+      <class name="apiTestCases.Test_getMethod">
         <methods>
-          <include name="captureScreenshot"/>
-          <include name="tearDownExtent"/>
-          <include name="setupExtent"/>
-          <include name="AmazonTask"/>
-          <include name="teardown"/>
-          <include name="setupBrowser"/>
-          <include name="setup"/>
+          <include name="Test01"/>
         </methods>
-      </class> <!-- assignment.TestCases.AmazonTest -->
+      </class> <!-- apiTestCases.Test_getMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
